@@ -32,7 +32,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Read the Image and convert to grayscale
-image = cv2.imread('rose.jpg')  # Replace with your image file path
+image = cv2.imread('dog cat.jpg')  # Replace with your image file path
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)  # Convert to grayscale
 
 # Original Image
@@ -85,20 +85,17 @@ plt.show()
 ## Output
 
 ### Original Image
-
-<img width="219" height="230" alt="500252426-27cf9550-60aa-4bca-8cc7-fa32edd90f63" src="https://github.com/user-attachments/assets/0e19fa03-934f-4b27-9a04-8f27f3610e2b" />
+<img width="178" height="193" alt="image" src="https://github.com/user-attachments/assets/3196a5d2-1c75-413c-a6af-e6247f84c44a" />
 
 ### Global Thresholding
-<img width="217" height="269" alt="500252450-92313c2a-64c6-409f-85c6-d8e36663f462" src="https://github.com/user-attachments/assets/37e6936e-445a-4cfc-b1dc-3ae69e593a32" />
-
+<img width="206" height="218" alt="image" src="https://github.com/user-attachments/assets/b6756e06-38c2-4dd6-a544-b8aababf623d" />
 
 ### Adaptive Thresholding
-<img width="263" height="274" alt="500252477-e03cad2b-75ad-4d6e-9d40-f5b3b7abfa3a" src="https://github.com/user-attachments/assets/538daa96-60f4-4827-8a61-5f20ee10f5db" />
+<img width="197" height="219" alt="image" src="https://github.com/user-attachments/assets/dbdb315d-bcc5-4f89-9618-94eae429080a" />
 
 
 ### Optimum Global Thesholding using Otsu's Method
-
-<img width="235" height="274" alt="500252504-03309cf2-058f-4127-9ece-da2d35c308b7" src="https://github.com/user-attachments/assets/15a41747-d05b-4c61-9e76-b0fb44b7b005" />
+<img width="211" height="222" alt="image" src="https://github.com/user-attachments/assets/eb305203-d155-417c-aa91-e270d5ef0b51" />
 
 # RESULT:
 Thus the images are segmented using global thresholding, adaptive thresholding and optimum global thresholding using python and OpenCV.
